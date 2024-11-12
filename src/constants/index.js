@@ -30,7 +30,8 @@ import {
   AICodexChat,
   AppleWebsiteClone,
   cdvi,
-  syntax
+  syntax,
+  next
 } from "../assets";
 
 export const navLinks = [
@@ -115,6 +116,10 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "Next JS",
+    icon: next,
   }
 ];
 
