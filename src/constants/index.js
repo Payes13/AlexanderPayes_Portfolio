@@ -67,7 +67,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "SAP Technical Consultant",
+    title: "SAP Cloud Integration Developer",
     icon: creator,
   },
 ];
@@ -139,45 +139,18 @@ const experiences = [
     ],
   },
   {
-    title: "SAP Technical Consultant - Cloud Platform Integration",
+    title: "SAP Cloud Integration Developer",
     company_name: "Syntax",
     icon: syntax,
     iconBg: "#E6DEDD",
     date: "April 2022 - Present",
     points: [
-      "Designing and developing SAP CPI Integration Solutions using adapters such as: HTTP, SFTP, OData, SOAP, Process Direct, Salesforce, etc.",
+      "Designing and developing SAP CPI (Cloud Platform Integration) Integration Solutions using adapters such as: HTTP, SFTP, OData, SOAP, Process Direct, Salesforce, etc.",
       "Transforming input payload through mapping standard and customized functions using Groovy programming language.",
       "I developed Groovy scripts to implement custom data transformations, ensuring seamless and efficient integration of complex datasets.",
       "Assisting development teams in designing, developing, and testing SAP Integration interfaces.",
       "More on Resume's work experience"
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
