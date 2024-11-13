@@ -266,6 +266,27 @@ const projects = [
     source_code_link: "https://github.com/Payes13/AIChatGoogleGemini/tree/master",
   },
   {
+    name: "3D Design - Apple Website Clone",
+    description:
+      "Apple website clone, a visually striking clone of the Apple website using React.js, GSAP animations, and Three.js. Leveraging these powerful libraries, I created stunning 3D models and animations seamlessly integrated into the web pages, delivering an engaging and interactive user experience.",
+    tags: [
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GSAP animation library",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: AppleWebsiteClone,
+    source_code_link: "https://github.com/Payes13/FEWebsite_AppleCloneJSM",
+  },
+  {
     name: "Technical Assessment",
     description:
       "This application allows you to fetch users from an API and display their information in a dynamic and interactive interface. Key features include row coloring for enhanced visualization, sorting functionality by name, last name, or country, as well as the ability to filter users by country. Users can also remove individual entries, reset to the original dataset.",
@@ -306,27 +327,6 @@ const projects = [
     ],
     image: AICodexChat,
     source_code_link: "https://github.com/Payes13/FSWebsite_openAI_chat_assistantJSM",
-  },
-  {
-    name: "Apple Website Clone",
-    description:
-      "Apple website clone, a visually striking clone of the Apple website using React.js, GSAP animations, and Three.js. Leveraging these powerful libraries, I created stunning 3D models and animations seamlessly integrated into the web pages, delivering an engaging and interactive user experience.",
-    tags: [
-      {
-        name: "threejs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "reactjs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "GSAP animation library",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: AppleWebsiteClone,
-    source_code_link: "https://github.com/Payes13/FEWebsite_AppleCloneJSM",
   },
 ];
 
