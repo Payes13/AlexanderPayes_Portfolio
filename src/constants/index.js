@@ -135,7 +135,7 @@ const experiences = [
       "Developed and optimized backend services using Node.js and pg-promise for secure and efficient interaction with PostgreSQL databases.",
       "Deployed and managed scalable web applications using AWS Elastic Beanstalk, ensuring optimal performance and availability.",
       "Configured and optimized Amazon S3 buckets for secure storage solutions and efficient content delivery.",
-      "More on Resume's work experience"
+      "More on Resume's work experience upon request"
     ],
   },
   {
@@ -149,7 +149,7 @@ const experiences = [
       "Transforming input payload through mapping standard and customized functions using Groovy programming language.",
       "I developed Groovy scripts to implement custom data transformations, ensuring seamless and efficient integration of complex datasets.",
       "Assisting development teams in designing, developing, and testing SAP Integration interfaces.",
-      "More on Resume's work experience"
+      "More on Resume's work experience upon request"
     ],
   },
 ];
