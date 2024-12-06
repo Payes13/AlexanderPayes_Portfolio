@@ -8,20 +8,10 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   AIImageTransformation,
   InventoryManagementSystem,
@@ -31,7 +21,9 @@ import {
   AppleWebsiteClone,
   cdvi,
   syntax,
-  next
+  next,
+  aws,
+  AWSServerlessApplication
 } from "../assets";
 
 export const navLinks = [
@@ -94,8 +86,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "Tailwind CSS",
@@ -260,6 +252,35 @@ const projects = [
     source_code_link: "https://github.com/Payes13/FEWebsite_AppleCloneJSM",
   },
   {
+    name: "AWS Serverless Application",
+    description:
+      "Serverless application using the serverless framework with Node.js and AWS. Key features include serverless architecture, AWS Lambda functions, API Gateway, and DynamoDB. The application is designed to be highly scalable and easy to maintain.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "lambda",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "dynamoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "API gateway",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: AWSServerlessApplication,
+    source_code_link: "https://github.com/Payes13/BEAPI_AWS_ServerlessFramework_Fazt",
+  },
+  {
     name: "Technical Assessment",
     description:
       "This application allows you to fetch users from an API and display their information in a dynamic and interactive interface. Key features include row coloring for enhanced visualization, sorting functionality by name, last name, or country, as well as the ability to filter users by country. Users can also remove individual entries, reset to the original dataset.",
@@ -300,7 +321,7 @@ const projects = [
     ],
     image: AICodexChat,
     source_code_link: "https://github.com/Payes13/FSWebsite_openAI_chat_assistantJSM",
-  },
+  }
 ];
 
 export { services, technologies, experiences, projects };
